@@ -9,8 +9,12 @@ print("A 3 x 3 array")
 array = np.array([1,2,3,4,5,6,7,8,9])
 newArray = array.reshape(3,3)
 print(newArray)
-#Extract all off numbers from an array of 1-10
-
+#Extract all odd numbers from an array of 1-10
+import numpy as np
+array = np.arange(1,10,2)
+print(array)
 #subtract 1 from each of the numbers in the above array 
+print("subtract:",array -1)
 #convert a 1d array to a 2d array with 2 rows
+
 #create two array a and b, stackthese two arrays vertically use the np.dot and np.sum to calculate totals
