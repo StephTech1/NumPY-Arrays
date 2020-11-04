@@ -10,11 +10,17 @@ array = np.array([1,2,3,4,5,6,7,8,9])
 newArray = array.reshape(3,3)
 print(newArray)
 #Extract all odd numbers from an array of 1-10
+print ("An array of odd numbers")
 import numpy as np
 array = np.arange(1,10,2)
 print(array)
 #subtract 1 from each of the numbers in the above array 
 print("subtract:",array -1)
 #convert a 1d array to a 2d array with 2 rows
+print("Convert 1d to 2d array")
+import numpy as np 
+array = np.array([1,2,3,4,5,6,7,8,9,10])
+newArray = array.reshape(2,5)
+print(newArray)
+#create two array a and b, stack these two arrays vertically use the np.dot and np.sum to calculate totals
 
-#create two array a and b, stackthese two arrays vertically use the np.dot and np.sum to calculate totals
